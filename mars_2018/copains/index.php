@@ -48,6 +48,9 @@ asort($distance);
 
 $j = 0;
 $somme = 0;
+
+// A FAIRE:
+// Sortir du foreach lorsqu'on a les notes des k meilleurs copains
 foreach ($distance as $key => $note) {
     if ($j < $k) {
         $somme += $notes[$key][5];
